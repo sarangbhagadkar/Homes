@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Finder Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="createAccount.css">
+</head>
+<body>
+    <header class="first-navbar-section">
+        <div class="first-container">
+            <div class="first-navbar">
+                <a href="index.html">
+
+                    <!-- for  logo -->
+
+                    <img src="img/Logo.png" alt="Homes.com" width="50%" height="auto" > 
+                    <h1 class="webname"><span class="H-firstleter">H</span><span class="middilename">omes</span><span class="com" text>.com</span></h1>
+                </a>
+                
+            </div>
+            <nav class="first-navbar">
+
+                
+                <ul>
+                  
+                    <!-- <input type="search" class="search" id="search" name="search" placeholder="Search..."><button class="search-btn" id="search"><i class='bx bx-search-alt' ></i>Search</button> -->
+                    <li class="navitem"><a class="navlink" href="/">Home</a></li>
+                    <li class="navitem"><a class="navlink" href="/">About</a></li>
+                    <li class="navitem"><a class="navlink" href="login.html">Login</a></li>
+                    <li class="navitem"><a class="navlink" href="createAccount.html">Signup</a></li>
+                    <li class="navitem"><a class="navlink" href="/">contact us</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ========== Start Create account section ========== -->
+
+    <section class="login-page">
+
+        <h1>Create Account to Home Finder</h1>
+
+        <form action="">
+            
+            <div class="Fname">
+                <i class="fa-solid fa-user"></i>
+            <input type="text"  placeholder="Enter your First Name" required>
+            </div>
+            <br>
+
+            <div class="Fname">
+                <i class="fa-solid fa-user"></i>
+                <input type="text"  placeholder="Enter your Last Name" required>
+            </div>
+            <br>
+
+            <div class="Email">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="abc@gmail.com" >
+            </div>
+            <br>
+
+            <div class="Phone-number">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" name="Pnumber" id="Pnumber" maxlength="10" required placeholder=" Enter your Phone Number">
+            </div>
+            <br>
+
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                 <input type="password"  name="Password" required placeholder="Create your Password">
+            </div>
+            <br>
+            <div class="radio-container">
+                <span  style="font-weight: 700;">Gender</span>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male">
+                    Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female
+                </label>
+            </div>
+            <br><br>
+            <button type="submit" class="submit"><a href="#">Submit</a></button>
+            <button type="reset" class="reset"><a href="#">Reset</a></button>
+                
+            
+
+
+        </form>
+
+    </section>
+    
+    
+    <!-- ========== End Create account  section ========== -->
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,276 @@
+
+
+body,html{
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    margin: 0;
+
+}
+/*********************** start 1st Nav Bar Section ***********************/
+a{
+    text-decoration: none;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar line */
+.first-navbar-section{
+    background: linear-gradient(90deg,#4A90E2,#50E3C2);
+    padding: 3px 30px 1px 10px ;
+    box-shadow:0px 2px 24px 0px rgba(0,0,0, 0.5) ;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+/* logo img */
+.first-navbar img{
+    margin: 0px 0px  0px 0px ;
+    width: 70px;  /*width of logo*/
+}
+
+/***** web name section *****/  
+
+/* Web Name */
+.webname{
+
+    -webkit-text-stroke:1px  black ;
+    padding: 0px 100px 0px 0px;
+    margin: -70px 0px 0px 90px;
+    color: azure;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.middilename{
+    font-size: 40px;
+}
+.com{
+    font-size: 75%;
+}
+
+.H-firstleter{
+    font-size: 175%;
+    font-family: cursive;
+}
+
+/***** End web name section *****/
+
+/* navbar text */
+.first-navbar ul{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+.navitem{
+    gap: 500px;
+}
+
+.navlink{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;  /*padding for clickable area*/
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+}
+
+.navlink:hover{
+    background-color: rgba(255,255,255, 0.2); /*light background on hover effect*/
+    color: black;  /*change text color on hover*/
+    transform:scale(1.05) ;
+    -webkit-transform:1.05;
+    -moz-transform:1.05;
+    -ms-transform:1.05;
+    -o-transform:1.05;
+}
+
+/*********************** End 1st Nav Bar Section ***********************/
+
+/***** Start web name section *****/  
+
+/* logo img */
+.logo-section{
+    max-width: 70px;
+}
+
+img{
+    margin: 4px 0px  0px 9px ;
+    width: 70px;  /*width of logo*/
+}
+
+/* Web Name */
+a{
+    text-decoration: none;
+}
+.webname{
+
+    -webkit-text-stroke:1px  black ;
+    padding: 0px 100px 0px 0px;
+    margin: -60px 0px 0px 90px;
+    text-align: left;
+    color: azure;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.middilename{
+    font-size: 40px;
+}
+.com{
+    font-size: 75%;
+}
+
+.H-firstleter{
+    font-size: 175%;
+    font-family: cursive;
+}
+
+/***** End web name section *****/
+
+.bg {
+    background-image: url(img/login.jpg);
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size:25.7px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(248, 248, 248, 0.7); /* shadow */
+   
+}
+
+
+/* Styling for the login container */
+.login-page {
+    
+    width: 350px;
+    border: 2px solid #000;
+    padding: 30px;
+    background: linear-gradient(90deg,#c6daf0,#00f5c0); /* Semi-transparent background */
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.566);
+    border-radius: 10px;
+    position: absolute;
+    right: 165px; /* Adjusted for better positioning */
+    top: 50%;
+    margin-top: 30px;
+    
+    transform: translateY(-50%);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    backdrop-filter: blur(5px); /* Adds a nice blur effect */
+    text-align: center;
+    
+
+   
+
+}
+
+/* Hover effect on the entire form */
+.login-page:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+}
+
+
+/* Input fields styling */
+input {
+    width: 300px;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #181717;
+}
+input:focus {
+    border: 3px solid #555;
+   
+}
+input:hover{
+    box-shadow: 4px 4px 5px black;
+    border: 2px solid black;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.create:hover{
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+
+/***** SUBMIT & RESTART *****/  
+
+
+/* Styling for the submit button */
+button.submit {
+    background-color: #00bcd4; /* Light blue background */
+    color: white;              /* White text color */
+    border: none;              /* Remove border */
+    padding: 15px 30px;        /* Padding for a good clickable area */
+    font-size: 1rem;           /* Font size */
+    border-radius: 25px;       /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    margin-right: 15px;        /* Spacing between buttons */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px;       /* Slight spacing between letters */
+    font-weight: bold;         /* Bold text */
+    text-shadow: 1px 2px 2px black;
+}
+
+
+
+/* Hover effect for the submit button */
+button.submit:hover {
+    background-color: #008c9e;  /* Darker blue on hover */
+    box-shadow: 5px 5px 2px rgb(1, 1, 1); /* Add shadow on hover */
+}
+
+
+/* Active state effect (when button is clicked) */
+button:active {
+    transform: scale(0.98); /* Slightly shrink the button when clicked */
+}
+
+/* Remove default link styling */
+button a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;  /* Ensure link fills the button */
+    height: 100%; /* Ensure link fills the button */
+    text-align: center;
+}
+
+
+/***** End SUBMIT *****/
+ 
+
+
+
+

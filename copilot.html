@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Input Example</title>
+    <style>
+        .output {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<label for="rangeInput">Select a number (0-100):</label>
+<input type="range" id="rangeInput" min="0" max="100" value="50" step="1">
+<div class="output" id="rangeValue">50</div>
+
+<!-- <script>
+    const rangeInput = document.getElementById('rangeInput');
+    const rangeValue = document.getElementById('rangeValue');
+
+    // Update the displayed value when the range input changes
+    rangeInput.addEventListener('input', function() {
+        rangeValue.textContent = this.value;
+    });
+</script> -->
+
+</body>
+</html>

@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filters, .listings, .quick-links {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.filters h2, .quick-links h2 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #e53935;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.filter-options button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+}
+
+.filter-options button.active {
+    background-color: #0081c2;
+    color: white;
+    border-color: #0081c2;
+}
+
+.filter-options button:hover {
+    background-color: #0081c2;
+    color: white;
+    border-color: #0081c2;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.filter-group label {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.filter-group input[type="checkbox"], 
+.filter-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.listing {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.listing-header h3 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.listing-header p {
+    font-size: 1.1em;
+    color: #888;
+}
+
+.listing-details {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.listing-details img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details  {
+    margin: -200px 0px 100px 350px;
+}
+.details img{
+    width: 400px;
+    margin-bottom: 15px;
+}
+.details p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.details-button {
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.details .details-button{
+    margin: -1000px 0px 0px 0px;
+    min-width: 10PX;
+}
+
+.details-button:hover {
+    background-color: #e53935;
+}
+
+
+.quick-links ul {
+    margin-bottom: 20px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-size: 1em;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.ad {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.ad h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.ad p {
+    font-size: 1em;
+    color: #777;
+}
+
+
+/*********************** start 1st Nav Bar Section ***********************/
+a{
+    text-decoration: none;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -5px 0px -10px 0px;
+}
+
+/* navbar line */
+.first-navbar-section{
+    background: linear-gradient(90deg,#4A90E2,#50E3C2);
+    padding: 3px 30px 1px 10px ;
+    box-shadow:0px 2px 24px 0px rgba(0,0,0, 0.5) ;
+    border-color: black;
+    border-style: outset;
+    border-top: none;
+    border-bottom-width: 2px;
+    margin: auto;
+    
+}
+
+/* logo img */
+.first-navbar img{
+    margin: 4px 0px  0px 0px ;
+
+    width: 70px;  /*width of logo*/
+}
+
+/***** web name section *****/  
+
+/* Web Name */
+.webname{
+
+    -webkit-text-stroke:1px  black ;
+    padding: 0px 100px 0px 0px;
+    margin: -70px 0px 0px 90px;
+    color: azure;
+    text-decoration: none;  
+    
+}
+.middilename{
+    font-size: 40px;
+}
+.com{
+    font-size: 75%;
+}
+
+.H-firstleter{
+    font-size: 175%;
+    font-family: cursive;
+}
+
+/***** End web name section *****/
+
+/* navbar text */
+.first-navbar ul{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+.navitem{
+    gap: 500px;
+}
+
+.navlink{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;  /*padding for clickable area*/
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+}
+
+.navlink:hover{
+    background-color: rgba(255,255,255, 0.2); /*light background on hover effect*/
+    color: black;  /*change text color on hover*/
+    transform:scale(1.05) ;
+    -webkit-transform:1.05;
+    -moz-transform:1.05;
+    -ms-transform:1.05;
+    -o-transform:1.05;
+}
+
+/*********************** End 1st Nav Bar Section ***********************/
+
+
+
+/***** Start Image Slideshow section *****/ 
+.slideshow-container {
+    width: 100%;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    position: sticky;
+    margin: 10px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.slide img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Fade effect to make images appear slowly */
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    20% { opacity: 1; }
+    25% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* Apply animation to all slides */
+.slide:nth-child(1) {
+    animation: fadeEffect 16s infinite;
+}
+
+.slide:nth-child(2) {
+    animation: fadeEffect 16s infinite 4s;
+}
+
+.slide:nth-child(3) {
+    animation: fadeEffect 16s infinite 8s;
+}
+
+.slide:nth-child(4) {
+    animation: fadeEffect 16s infinite 12s;
+}
+
+.slide:nth-child(5) {
+    animation: fadeEffect 16s infinite 12s;
+}
+
+
+/***** End Image Slideshow section *****/
+
+
+/* Basic styling for the container */
+.listing-header {
+    /* background-color: #f81616; */
+    padding: 20px;
+    border: 1px solid #0c0c0c21;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the header title */
+.listing-header h3 {
+    padding-bottom:15px ;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    font-weight: 600;
+    color: #020202;
+    margin-bottom: 15px;
+}
+
+/* Flex container for rent, deposit, and area details */
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} 
+
+/* Style for each section (rent, deposit, area) */
+.price div {
+    text-align: center;
+    flex: 1;
+}
+
+/* Styling for the rent price, deposit, and area text */
+.rs {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.price .rs{
+    color: #000000;
+}
+
+.remark {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000000;
+} 
+
+/* Ensuring there's proper spacing between the columns */
+.rent-price, .deposit-price, .flat-area {
+    margin: 20px 10px;
+}

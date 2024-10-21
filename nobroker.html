@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <link rel="stylesheet" href="nobroker.css">
+</head>
+<body>
+
+    <!-- Header Section with Logo and Services -->
+    <header class="header">
+        <div class="container">
+            <h1>World's Largest NoBrokerage Property Site</h1>
+            <div class="services">
+                <div class="service">
+                    <img src="rental-agreement-icon.png" alt="Rental Agreement">
+                    <span>Rental Agreement</span>
+                </div>
+                <div class="service">
+                    <img src="delivery-icon.png" alt="Next Day Delivery">
+                    <span>Next Day Delivery</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Search Section -->
+    <section class="property-search">
+        <div class="container">
+            <div class="tab-section">
+                <button class="tab active">Buy</button>
+                <button class="tab">Rent</button>
+                <button class="tab">Commercial</button>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" class="location-input" placeholder="Pune">
+                <input type="text" class="locality-input" placeholder="Search up to 3 localities or landmarks">
+                <div class="property-type">
+                    <input type="radio" name="property" id="full-house" checked>
+                    <label for="full-house">Full House</label>
+                    <input type="radio" name="property" id="pg-hostel">
+                    <label for="pg-hostel">PG/Hostel</label>
+                    <input type="radio" name="property" id="flatmates">
+                    <label for="flatmates">Flatmates</label>
+                </div>
+                <div class="bhk-selector">
+                    <button>1 BHK</button>
+                    <button>2 BHK</button>
+                    <button>+2</button>
+                </div>
+                <select class="availability">
+                    <option value="">Availability</option>
+                    <option value="immediate">Immediate</option>
+                    <option value="within-1-month">Within 1 Month</option>
+                </select>
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="property-owner">
+                <span>Are you a Property Owner?</span>
+                <button class="post-ad-btn">Post Free Property Ad</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

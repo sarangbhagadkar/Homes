@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Finder final</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- ========== Start 1st Nav Bar section  ========== -->
+
+    <header class="first-navbar-section">
+        <div class="first-container">
+            <div class="first-navbar">
+                <a href="index.html">
+
+                    <!-- for  logo -->
+
+                    <img src="img/Logo.png" alt="Homes.com" width="50%" height="auto" > 
+                    <h1 class="webname"><span class="H-firstleter">H</span><span class="middilename">omes</span><span class="com" text>.com</span></h1>
+                </a>
+                
+            </div>
+            <nav class="first-navbar">
+
+                
+                <ul>
+                  
+                    <!-- <input type="search" class="search" id="search" name="search" placeholder="Search..."><button class="search-btn" id="search"><i class='bx bx-search-alt' ></i>Search</button> -->
+                    <li class="navitem"><a class="navlink" href="/">Home</a></li>
+                    <li class="navitem"><a class="navlink" href="/">About</a></li>
+                    <li class="navitem"><a class="navlink" href="login.html">Login</a></li>
+                    <li class="navitem"><a class="navlink" href="createAccount.html">Signup</a></li>
+                    <li class="navitem"><a class="navlink" href="/">contact us</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+    
+    <!-- ========== End 1st Nav Bar section  ========== -->
+
+    <!-- ========== Start Main Section ========== -->
+
+    <main class="main-section">
+        <div class="main-container">
+            <h1>Homes.com 0rs brokerage property site</h1>
+            <br>
+
+            <!---------  buy_rent_commercial --------->
+
+            <div class="buy_rent_commercial">
+
+                <button>Buy</button>
+                <a href=""><button> Rent</button></a>
+                <button>Commercial</button>
+
+            </div> 
+            <br> 
+
+            <!-- Radio for rent -->
+            <div class="availability">
+                <div class="radio-container"> 
+                    <div class="radio-rent">
+                        <label class="house"><input type="radio" name="house" class="pg-hostel" required>Full Housel</label>
+                        <label class="house"><input type="radio" name="house" class="flatmate" required>PG/Hostel</label>
+                        <label class="house"><input type="radio" name="house" class="full-house" required>Flatmates</label>
+                    </div>
+                </div>
+                <br>
+
+                
+                <!-- Bhk type -->
+                <div class="house-type">
+                    <span>House Type:</span>
+                    <select name="bhk" class="bhk-type" required>
+                        <option value="1rk">1 RK</option>
+                        <option value="1bhk">1 BHK</option>
+                        <option value="2bhk">2 BHK</option>
+                        <option value="3bhk">3 BHK</option>
+                    </select>
+                </div>
+
+                <!-- duration -->
+                <div class="availability-duration">
+                    <span>Availability:</span>
+                    <select name="duration" class="duration" placeholder="Availability" required>
+                        <option value="immediate">Immediate</option>
+                        <option value="within 15 days">Within 15 days</option>
+                        <option value="within 30 days">Within 30 days</option>
+                        <option value="After 30 days">After 30 days</option>
+                    </select>
+                </div>
+            </div><br>
+
+             <!-- select bar -->
+            <div class="select-inputs">
+                <div class="state">
+                    <span>State:</span>
+                    <select name="state"  required>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <!-- add  more cities -->
+
+                    </select>
+                </div>
+
+                <div class="city">
+                    <span>City:</span>
+                    <select name="city"  required>
+                        <option value="pune">Pune</option>
+                        <option value="nagpur">Nagpur</option>
+                        <!-- add more cities -->
+
+                    </select>
+                </div>
+                <!-- search bar -->
+                <div class="search">
+                    <span>Areas:</span>
+                    <input type="search" class="search-bar" placeholder="Search upto 3 localities or landmarks" required>
+                </div>
+
+            </div>
+            <a href=""><button class="search-btn" id="search"><i class='bx bx-search-alt' ></i>Search your property...</button></a>
+
+            <br>
+            <div class="home-services">
+                <h3>Home Services</h3><br>
+                <button class="Home-Int">Home Interiors</button>
+                <button class="Transportation">Luggage Transportation</button>
+                <button class="service-worker">Service Workers</button>
+            </div>
+            <!-- Property Owner -->
+            <div class="property-owner">
+                <h3>Are  you a property owner?</h3><br>
+                <button class="post-ad"> Post free property ad </button>
+            </div>
+
+        </main>
+        <!-- ========== End main Section ========== -->
+        
+        <!-- ========== Start Marquee Section ========== -->
+        
+        <section class="marquee-section">
+            
+            <marquee behavior="alternate"  direction="right" scrollamount="5">
+                <div class="explore-Now">
+                    <p> 🤩 Exclusive Deals | Reputed Builders | Best Properties🤩 </p>
+                    <button class="expo-btn">Explore Now!</button>
+                </div>
+            </marquee>
+
+        </section>
+    </div>
+    <!-- ========= End Marquee Section ========== -->
+    
+
+    <!-- ========== Start index page section ========== -->
+    
+
+
+    <!-- ========== End index page section ========== -->
+    
+
+    
+    
+</body>
+</html> 
+
