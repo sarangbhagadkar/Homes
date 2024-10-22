@@ -143,6 +143,7 @@ button:active{
     -moz-transform: translateY(5px);
     -ms-transform: translateY(5px);
     -o-transform: translateY(5px);
+    
 }
 
 button{
@@ -154,12 +155,16 @@ button{
     -o-border-radius: 6px;
 }
 .buy_rent_commercial{
-    margin-bottom: 23px;
+    margin-bottom: 23px;    
 }
 
 .buy_rent_commercial button:hover{
     background-color: rgb(139, 251, 111);
 }
+.buy_rent_commercial button{
+    background-color: rgb(139, 251, 111);
+}
+
 
 .select-inputs{
     display: flex;
