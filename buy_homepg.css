@@ -161,7 +161,7 @@ button{
 .buy_rent_commercial button:hover{
     background-color: rgb(139, 251, 111);
 }
-.buy_rent_commercial .rent{
+.buy{
     background-color: rgb(139, 251, 111);
 }
 

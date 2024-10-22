@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Finder final</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="commercial_homepg.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
 </head>
 <body>
@@ -66,33 +66,25 @@
             <div class="availability">
                 <div class="radio-container"> 
                     <div class="radio-rent">
-                        <label class="house"><input type="radio" name="house" class="pg-hostel" required>Full House</label>
-                        <label class="house"><input type="radio" name="house" class="flatmate" required>PG/Hostel</label>
-                        <label class="house"><input type="radio" name="house" class="full-house" required>Flatmates</label>
+                        <label class="house"><input type="radio" name="house" class="pg-hostel" required>Rent</label>
+                        <label class="house"><input type="radio" name="house" class="flatmate" required>Buy</label>
+                        <!-- <label class="house"><input type="radio" name="house" class="full-house" required>Farm House</label> -->
                     </div>
                 </div>
                 <br>
 
-                
-                <!-- Bhk type -->
-                <div class="house-type">
-                    <span>House Type:</span>
-                    <select name="bhk" class="bhk-type" required>
-                        <option value="1rk">1 RK</option>
-                        <option value="1bhk">1 BHK</option>
-                        <option value="2bhk">2 BHK</option>
-                        <option value="3bhk">3 BHK</option>
-                    </select>
-                </div>
-
                 <!-- duration -->
                 <div class="availability-duration">
-                    <span>Availability:</span>
+                    <span>Property Type:</span>
                     <select name="duration" class="duration" placeholder="Availability" required>
-                        <option value="immediate">Immediate</option>
-                        <option value="within 15 days">Within 15 days</option>
-                        <option value="within 30 days">Within 30 days</option>
-                        <option value="After 30 days">After 30 days</option>
+                        <option value="Office Space">Office Space</option>
+                        <option value="Restaurant /Cafe">Restaurant/Cafe</option>
+                        <option value="Shop">Shop</option>
+                        <option value="Showroom">Showroom</option>
+                        <option value="Industrial Building">Industrial Building</option>
+                        <option value="Industrial Shed">Industrial Shed</option>
+                        <option value="After 30 days">Warehouse</option>
+                        
                     </select>
                 </div>
             </div><br>
@@ -125,7 +117,7 @@
                 </div>
 
             </div>
-            <a href="rent.html"><button class="search-btn" id="search"><i class='bx bx-search-alt' ></i>Search your property...</button></a>
+            <a href="buy.html"><button class="search-btn" id="search"><i class='bx bx-search-alt' ></i>Search your property...</button></a>
 
             <br>
             <div class="home-services">

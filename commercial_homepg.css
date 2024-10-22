@@ -161,7 +161,7 @@ button{
 .buy_rent_commercial button:hover{
     background-color: rgb(139, 251, 111);
 }
-.buy_rent_commercial .rent{
+.commercial{
     background-color: rgb(139, 251, 111);
 }
 
@@ -232,10 +232,10 @@ button,select,label{
 
 .availability {
     display: flex;
-    margin-left:140px ;
+    margin-left:280px ;
     gap: 80px;
     font-weight: 600;
-    margin-bottom: 23px;
+    margin-bottom: 10px;
     
 }
 .availability .radio-container input{
