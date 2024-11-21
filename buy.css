@@ -24,7 +24,9 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-
+aside{
+    position: sticky;
+}
 .filters h2, .quick-links h2 {
     font-size: 1.3em;
     margin-bottom: 15px;
@@ -84,8 +86,17 @@ input[type="range"] {
 
 .listing-header {
     height: 500px;
+    
 }
 
+.listings{
+    height: fit-content;
+    width: fit-content;
+    height: 110px;
+    background-color: aqua;
+    border:1px solid black;
+    overflow: scroll;
+}
 
 .listing-header h3 {
     font-size: 1.3em;
@@ -143,6 +154,12 @@ input[type="range"] {
 .details-button:hover {
     background-color: #e53935;
 }
+.quick-links{
+   margin-right: -70px;
+}
+.filters{
+    
+}
 .quick-links p{
     font-size: 15px;
     font-weight: 550;
@@ -196,6 +213,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: -5px 50px -10px 0px;
+   
 }
 
 /* navbar line */
@@ -210,6 +228,7 @@ a{
     margin: auto;
     position: fixed;
     width: 100%;
+    z-index: 1;
     
 }
 
@@ -413,9 +432,10 @@ a{
     color: white;
     text-align: center;
     padding: 12.98px;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
+
 }
 
 .copyright-footer p {
@@ -432,6 +452,12 @@ a{
 
 .copyright-footer a:hover {
     color: #fff;    
+}
+
+.listing-grid {
+    display: grid;
+    grid-template-rows: repeat(1,30px);
+    gap: 20px;
 }
 
 /***** End Footer Section *****/
